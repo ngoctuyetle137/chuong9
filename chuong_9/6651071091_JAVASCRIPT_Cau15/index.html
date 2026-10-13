@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Câu 15 - Xây dựng Tabs</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h2>Câu 15: Hiệu ứng chuyển Tab</h2>
+  <ul class="tabs-nav">
+    <li class="active" data-tab="tab-main">THÔNG TIN CHÍNH</li>
+    <li data-tab="tab-images">HÌNH ẢNH</li>
+    <li data-tab="tab-seo">SEO</li>
+  </ul>
+  <div class="tab-content">
+    <div id="tab-main" class="tab-pane active">
+      <h3>Tab Thông Tin Chính</h3>
+      <p>Nội dung chi tiết thông tin chính của bài viết hoặc sản phẩm.</p>
+    </div>
+    <div id="tab-images" class="tab-pane">
+      <h3>Tab Hình Ảnh</h3>
+      <p>Danh sách hình ảnh hoặc thư viện ảnh.</p>
+    </div>
+    <div id="tab-seo" class="tab-pane">
+      <h3>Tab SEO</h3>
+      <p>Cấu hình meta title, meta description và từ khóa tìm kiếm.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

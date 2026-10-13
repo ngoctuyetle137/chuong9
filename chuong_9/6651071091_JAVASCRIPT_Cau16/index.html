@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Câu 16 - Quản lý thông tin user</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h2>Quản lý thông tin user</h2>
+  <div class="form-row">
+    <input type="text" id="uName" placeholder="Name">
+    <input type="email" id="uEmail" placeholder="Email Address">
+    <input type="date" id="uBirthdate" placeholder="Birthdate">
+    <button id="btnAdd">Add Row</button>
+  </div>
+
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th style="width: 60px;">Select</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Birthdate</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <button class="btn-delete" id="btnDelete">Delete Row</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

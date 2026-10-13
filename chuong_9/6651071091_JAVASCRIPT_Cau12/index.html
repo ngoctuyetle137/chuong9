@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Câu 12 - Điều kiện hiển thị Input</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h2>Câu 12: Nhập thông tin tùy chọn</h2>
+
+  <div class="group">
+    <label><strong>Bạn có Passport không?</strong></label><br>
+    <label><input type="radio" name="passport" value="yes"> Yes</label>
+    <label><input type="radio" name="passport" value="no" checked> No</label>
+    <div id="passportBox" class="hidden-input">
+      <input type="text" placeholder="Nhập số hộ chiếu (Passport)...">
+    </div>
+  </div>
+
+  <div class="group">
+    <label><strong>Bạn có Credit Card không?</strong></label><br>
+    <label><input type="radio" name="creditCard" value="yes"> Yes</label>
+    <label><input type="radio" name="creditCard" value="no" checked> No</label>
+    <div id="creditBox" class="hidden-input">
+      <input type="text" placeholder="Nhập thông tin số thẻ tín dụng...">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

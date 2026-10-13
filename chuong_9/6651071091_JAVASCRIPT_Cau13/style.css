@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.password-wrapper { position: relative; width: 260px; }
+.password-wrapper input { width: 100%; padding: 8px 35px 8px 10px; box-sizing: border-box; }
+.password-wrapper .toggle-eye {
+  position: absolute; right: 10px; top: 50%;
+  transform: translateY(-50%); cursor: pointer; color: #666;
+}
+
