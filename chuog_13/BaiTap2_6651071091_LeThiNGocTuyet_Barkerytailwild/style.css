@@ -1,0 +1,25 @@
+/* ==========================================================================
+   STYLE CHO BẾP BÁNH HOMEMADE (TAILWIND CSS BÀI TẬP 2)
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tùy chỉnh thanh cuộn đẹp mắt */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
